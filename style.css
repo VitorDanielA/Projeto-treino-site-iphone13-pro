@@ -1,0 +1,210 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+.container-top{
+    background-color: #353130;
+}
+
+.container-top img{
+    position: absolute;
+    top: 15px;
+    left: 120px;
+}
+
+.top-bar1{
+    display: flex;
+    background-color: #353130;
+    color: azure;
+    font-size: 0.7rem;
+    justify-content: space-around;
+    margin: 0 auto;
+    align-items: center;
+    max-width: 1000px; 
+    height: 10vh;
+    cursor: pointer;
+}
+
+.top-bar1 li{
+    padding-left: 20px;
+}
+
+.top-bar1 li:hover{
+    color: aliceblue;
+}
+
+.container-top2{
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.container-top2 h3{
+    font-size: 1.2rem;
+    padding-left: 100px;
+}
+
+.top-bar2{
+    display: flex;
+    justify-content: space-around;
+    height: 10vh;
+    margin: 0 auto;
+    align-items: center;
+    padding-left: 314px;
+    font-size: 0.7rem;
+}
+
+.top-bar2 li{
+    color: #666;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 30px;
+    padding-left: 10px;
+}
+
+.comprar{
+    background-color: #0071e3;
+    border: none;
+    border-radius: 20px;
+    height: 30px;
+    width: 100px;
+    color: white;
+    /* padding-right: 5px; */
+    cursor: pointer;
+    margin-right: 5px;
+}
+
+.comprar:hover{
+    background-color: #54524f;
+}
+
+.newcell{
+    font-size: 0.8rem;
+    background-color: #f5f5f7;
+    height: 10vh;
+    align-items: center;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    border-top: 1px solid #ccc;
+}
+
+hgroup{
+    text-align: center;
+    padding-top: 20px;
+}
+
+hgroup h3{
+    font-size: 25px;
+}
+
+hgroup h1{
+    padding-top: 25px;
+    font-size: 70px;
+}
+
+.description{
+    max-width: 600px;
+    margin: 0 auto;
+    padding-top: 20px;
+    line-height: 1.5em;
+    text-align:justify;
+}
+
+.price{
+    color: #666;
+    padding-top: 20px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.comprar2button{
+    height: 8vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+}
+.comprar2{
+    background-color: #0071e3;
+    border: none;
+    border-radius: 20px;
+    height: 40px;
+    width: 100px;
+    color: white;
+    /* padding-right: 5px; */
+    cursor: pointer;
+}
+
+.comprar2:hover{
+    background-color: #54524f;
+}
+
+.images-iphone img{
+    width: 800px;
+    margin: 0 auto;
+    display: block;
+    padding-top: 30px;
+}
+
+.model-cores{
+    padding-top: 100px;
+    max-width: 650px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+.cores{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cores li{
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+}
+
+.cores li .cor{
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    box-shadow: 1px 1px 1px;
+    border: 4px solid #fff;
+    pointer-events: none;
+    margin-bottom: 5px;
+}
+
+.verde button{
+    background-color: #394c38;
+}
+
+.prata button{
+    background-color: #f1f2ed;
+}
+
+.dourado button{
+    background-color: #fae7cf;
+}
+
+.grafite button{
+    background-color: #54524f;
+}
+
+.azul button{
+    background-color: #a7c1d9;
+}
